@@ -71,7 +71,7 @@ cp .env.example .env
 
 Or set environment variables:
 ```bash
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY="your-openai-key"
 export ANTHROPIC_API_KEY="your-anthropic-key"
 ```
 

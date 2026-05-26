@@ -72,8 +72,7 @@ class LLMInterface:
         if self.provider == "openai":
             if openai is None:
                 raise ImportError("openai package not installed")
-            self.client = openai.OpenAI(  base_url="https://routellm.abacus.ai/v1",
-                        api_key=os.getenv("OPENAI_API_KEY"))
+            self.client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
             self.model = model or "gpt-4"
         elif self.provider == "anthropic":
             if anthropic is None:
