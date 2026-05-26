@@ -1,0 +1,52 @@
+{
+  "openai:gpt-4o-mini": {
+    "random": {
+      "total_evaluations": 60,
+      "failures": 47,
+      "failure_rate": 0.7833333333333333,
+      "analysis": {
+        "by_category": {
+          "parsing_error": 24,
+          "arithmetic_error": 22,
+          "logical_error": 1
+        },
+        "by_mutation": {
+          "constraint": 31,
+          "instruction": 32,
+          "adversarial_trap": 20,
+          "composition": 7
+        },
+        "by_domain": {
+          "number_theory": 33,
+          "game_theory": 14
+        },
+        "by_difficulty": {
+          "3": 23,
+          "2": 21,
+          "4": 3
+        },
+        "common_patterns": [
+          [
+            "fell_for_trap",
+            19
+          ],
+          [
+            "possible_wrong_operation",
+            1
+          ],
+          [
+            "off_by_one",
+            1
+          ]
+        ],
+        "severity_distribution": {
+          "2": 16,
+          "1": 9,
+          "3": 16,
+          "4": 3,
+          "5": 3
+        }
+      }
+    }
+  }
+}

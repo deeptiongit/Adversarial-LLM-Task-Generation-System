@@ -1,0 +1,105 @@
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - Initialized experiment: openai-gpt-4o-mini
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - Models: ['openai:gpt-4o-mini']
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - Strategies: ['hill_climbing']
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - Starting experiment with 20 iterations
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - 
+============================================================
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - Testing model: openai:gpt-4o-mini
+2026-05-23 13:55:13,862 - Experiment-openai-gpt-4o-mini - INFO - ============================================================
+
+2026-05-23 13:55:13,891 - LLMInterface-openai - INFO - Initialized openai with model gpt-4o-mini
+2026-05-23 13:55:13,891 - Experiment-openai-gpt-4o-mini - INFO - 
+Running strategy: hill_climbing
+2026-05-23 13:55:13,891 - HillClimbingStrategy - INFO - Starting hill climbing search for 20 iterations
+2026-05-23 13:55:22,767 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:55:26,861 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:55:31,050 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:55:31,874 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:55:31,876 - HillClimbingStrategy - INFO - Iteration 1: No improvement, random restart
+2026-05-23 13:55:46,315 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:55:52,767 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:12,384 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:23,077 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:23,079 - HillClimbingStrategy - INFO - Iteration 2: Moved to better neighbor (score: 14.00)
+2026-05-23 13:56:34,239 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:46,423 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:55,536 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:56:55,538 - HillClimbingStrategy - INFO - Iteration 3: No improvement, random restart
+2026-05-23 13:57:06,187 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:18,166 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:32,346 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:39,567 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:39,569 - HillClimbingStrategy - INFO - Iteration 4: Moved to better neighbor (score: 13.00)
+2026-05-23 13:57:51,036 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:52,162 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:59,331 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:57:59,333 - HillClimbingStrategy - INFO - Iteration 5: No improvement, random restart
+2026-05-23 13:58:04,248 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:04,961 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:05,678 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:06,398 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:06,400 - HillClimbingStrategy - INFO - Iteration 6: Moved to better neighbor (score: 14.00)
+2026-05-23 13:58:09,878 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:14,997 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:25,345 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:25,348 - HillClimbingStrategy - INFO - Iteration 7: Moved to better neighbor (score: 14.50)
+2026-05-23 13:58:35,067 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:36,192 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:37,221 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:37,222 - HillClimbingStrategy - INFO - Iteration 8: Moved to better neighbor (score: 15.00)
+2026-05-23 13:58:38,237 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:46,803 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:48,687 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:48,689 - HillClimbingStrategy - INFO - Iteration 9: No improvement, random restart
+2026-05-23 13:58:51,248 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:58:54,116 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:05,122 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:10,293 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:10,301 - HillClimbingStrategy - INFO - Iteration 10: Moved to better neighbor (score: 14.50)
+2026-05-23 13:59:13,462 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:22,888 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:29,238 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:29,240 - HillClimbingStrategy - INFO - Iteration 11: Moved to better neighbor (score: 15.00)
+2026-05-23 13:59:34,052 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:43,222 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:44,086 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:44,088 - HillClimbingStrategy - INFO - Iteration 12: Moved to better neighbor (score: 15.50)
+2026-05-23 13:59:45,005 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:48,388 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:49,124 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:49,127 - HillClimbingStrategy - INFO - Iteration 13: No improvement, random restart
+2026-05-23 13:59:53,606 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:59:58,522 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:02,486 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:11,627 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:11,629 - HillClimbingStrategy - INFO - Iteration 14: Moved to better neighbor (score: 14.00)
+2026-05-23 14:00:15,189 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:19,823 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:30,164 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:30,166 - HillClimbingStrategy - INFO - Iteration 15: Moved to better neighbor (score: 14.50)
+2026-05-23 14:00:34,774 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:37,634 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:38,664 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:38,666 - HillClimbingStrategy - INFO - Iteration 16: Moved to better neighbor (score: 15.00)
+2026-05-23 14:00:48,085 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:51,094 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:55,761 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:00:55,763 - HillClimbingStrategy - INFO - Iteration 17: Moved to better neighbor (score: 15.50)
+2026-05-23 14:00:56,584 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:05,182 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:05,999 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:06,000 - HillClimbingStrategy - INFO - Iteration 18: No improvement, random restart
+2026-05-23 14:01:12,355 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:14,420 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:19,827 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:20,953 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 14:01:20,955 - HillClimbingStrategy - INFO - Iteration 19: Moved to better neighbor (score: 13.50)
+2026-05-23 14:01:20,955 - HillClimbingStrategy - INFO - Hill climbing complete. Failure rate: 85.94%
+2026-05-23 14:01:20,956 - Experiment-openai-gpt-4o-mini - INFO - Strategy hill_climbing complete:
+2026-05-23 14:01:20,956 - Experiment-openai-gpt-4o-mini - INFO -   Failure rate: 85.94%
+2026-05-23 14:01:20,956 - Experiment-openai-gpt-4o-mini - INFO -   Failures found: 55
+2026-05-23 14:01:20,956 - Experiment-openai-gpt-4o-mini - INFO - Results saved to experiments/openai-gpt-4o-mini_20260523_135513/results.json
+2026-05-23 14:01:20,956 - Experiment-openai-gpt-4o-mini - INFO - Generating visualizations...
+2026-05-23 14:01:21,802 - Experiment-openai-gpt-4o-mini - INFO - Visualizations saved to experiments/openai-gpt-4o-mini_20260523_135513/visualizations
+2026-05-23 14:01:21,802 - Experiment-openai-gpt-4o-mini - INFO - 
+Experiment complete! Results saved to experiments/openai-gpt-4o-mini_20260523_135513

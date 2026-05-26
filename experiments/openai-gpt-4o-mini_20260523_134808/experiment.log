@@ -1,0 +1,102 @@
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - Initialized experiment: openai-gpt-4o-mini
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - Models: ['openai:gpt-4o-mini']
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - Strategies: ['evolutionary']
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - Starting experiment with 20 iterations
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - 
+============================================================
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - Testing model: openai:gpt-4o-mini
+2026-05-23 13:48:08,411 - Experiment-openai-gpt-4o-mini - INFO - ============================================================
+
+2026-05-23 13:48:08,443 - LLMInterface-openai - INFO - Initialized openai with model gpt-4o-mini
+2026-05-23 13:48:08,443 - Experiment-openai-gpt-4o-mini - INFO - 
+Running strategy: evolutionary
+2026-05-23 13:48:08,443 - EvolutionaryStrategy - INFO - Starting evolutionary search for 20 generations
+2026-05-23 13:48:18,621 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:35,320 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:47,143 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:47,148 - EvolutionaryStrategy - INFO - Generation 0: 3/3 failures
+2026-05-23 13:48:55,518 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:56,307 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:57,948 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:48:57,951 - EvolutionaryStrategy - INFO - Generation 1: 1/3 failures
+2026-05-23 13:49:04,297 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:05,219 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:06,151 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:06,153 - EvolutionaryStrategy - INFO - Generation 2: 1/3 failures
+2026-05-23 13:49:15,151 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:16,175 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:21,806 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:21,808 - EvolutionaryStrategy - INFO - Generation 3: 3/3 failures
+2026-05-23 13:49:31,944 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:42,903 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:50,063 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:50,071 - EvolutionaryStrategy - INFO - Generation 4: 3/3 failures
+2026-05-23 13:49:57,237 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:49:58,773 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:30,247 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:30,251 - EvolutionaryStrategy - INFO - Generation 5: 2/3 failures
+2026-05-23 13:50:38,604 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:39,526 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:43,786 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:43,791 - EvolutionaryStrategy - INFO - Generation 6: 2/3 failures
+2026-05-23 13:50:51,409 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:52,500 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:53,589 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:50:53,591 - EvolutionaryStrategy - INFO - Generation 7: 3/3 failures
+2026-05-23 13:51:01,956 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:02,772 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:03,590 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:03,593 - EvolutionaryStrategy - INFO - Generation 8: 2/3 failures
+2026-05-23 13:51:13,004 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:13,727 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:14,546 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:14,549 - EvolutionaryStrategy - INFO - Generation 9: 1/3 failures
+2026-05-23 13:51:24,178 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:25,400 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:26,426 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:26,428 - EvolutionaryStrategy - INFO - Generation 10: 3/3 failures
+2026-05-23 13:51:35,294 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:36,256 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:37,255 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:37,257 - EvolutionaryStrategy - INFO - Generation 11: 2/3 failures
+2026-05-23 13:51:43,219 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:44,139 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:44,979 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:44,982 - EvolutionaryStrategy - INFO - Generation 12: 1/3 failures
+2026-05-23 13:51:52,026 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:53,766 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:56,225 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:51:56,227 - EvolutionaryStrategy - INFO - Generation 13: 2/3 failures
+2026-05-23 13:52:03,049 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:03,991 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:12,307 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:12,310 - EvolutionaryStrategy - INFO - Generation 14: 2/3 failures
+2026-05-23 13:52:19,470 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:21,925 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:25,934 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:25,937 - EvolutionaryStrategy - INFO - Generation 15: 2/3 failures
+2026-05-23 13:52:36,980 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:52:39,334 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:17,432 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:17,434 - EvolutionaryStrategy - INFO - Generation 16: 2/3 failures
+2026-05-23 13:53:24,288 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:25,208 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:29,309 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:29,311 - EvolutionaryStrategy - INFO - Generation 17: 3/3 failures
+2026-05-23 13:53:38,213 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:51,012 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:52,139 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:53:52,143 - EvolutionaryStrategy - INFO - Generation 18: 2/3 failures
+2026-05-23 13:53:59,819 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:54:00,638 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:54:04,409 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:54:04,413 - EvolutionaryStrategy - INFO - Generation 19: 2/3 failures
+2026-05-23 13:54:04,413 - EvolutionaryStrategy - INFO - Evolutionary search complete. Failure rate: 70.00%
+2026-05-23 13:54:04,413 - Experiment-openai-gpt-4o-mini - INFO - Strategy evolutionary complete:
+2026-05-23 13:54:04,413 - Experiment-openai-gpt-4o-mini - INFO -   Failure rate: 70.00%
+2026-05-23 13:54:04,413 - Experiment-openai-gpt-4o-mini - INFO -   Failures found: 42
+2026-05-23 13:54:04,414 - Experiment-openai-gpt-4o-mini - INFO - Results saved to experiments/openai-gpt-4o-mini_20260523_134808/results.json
+2026-05-23 13:54:04,414 - Experiment-openai-gpt-4o-mini - INFO - Generating visualizations...
+2026-05-23 13:54:05,287 - Experiment-openai-gpt-4o-mini - INFO - Visualizations saved to experiments/openai-gpt-4o-mini_20260523_134808/visualizations
+2026-05-23 13:54:05,287 - Experiment-openai-gpt-4o-mini - INFO - 
+Experiment complete! Results saved to experiments/openai-gpt-4o-mini_20260523_134808

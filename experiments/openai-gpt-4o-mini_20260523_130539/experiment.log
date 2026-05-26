@@ -1,0 +1,129 @@
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - Initialized experiment: quick_test
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - Models: ['openai:gpt-4o-mini']
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - Strategies: ['random']
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - Starting experiment with 20 iterations
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - 
+============================================================
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - Testing model: openai:gpt-4o-mini
+2026-05-23 13:05:39,756 - Experiment-quick_test - INFO - ============================================================
+
+2026-05-23 13:05:39,792 - LLMInterface-openai - INFO - Initialized openai with model gpt-4o-mini
+2026-05-23 13:05:39,793 - Experiment-quick_test - INFO - 
+Running strategy: random
+2026-05-23 13:05:39,793 - RandomSearchStrategy - INFO - Starting random search for 20 iterations
+2026-05-23 13:05:48,483 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:05:48,500 - RandomSearchStrategy - INFO - Iteration 0: Found failure (template: nt_modular_arithmetic)
+2026-05-23 13:06:04,547 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:04,549 - RandomSearchStrategy - INFO - Iteration 0: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:06:14,164 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:14,166 - RandomSearchStrategy - INFO - Iteration 0: Found failure (template: nt_modular_arithmetic)
+2026-05-23 13:06:14,987 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:38,648 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:38,650 - RandomSearchStrategy - INFO - Iteration 1: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:06:39,682 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:39,683 - RandomSearchStrategy - INFO - Iteration 1: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:06:41,308 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:41,309 - RandomSearchStrategy - INFO - Iteration 2: Found failure (template: nt_prime_filtering)
+2026-05-23 13:06:42,336 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:42,338 - RandomSearchStrategy - INFO - Iteration 2: Found failure (template: gt_sequential_choice)
+2026-05-23 13:06:44,596 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:06:44,599 - RandomSearchStrategy - INFO - Iteration 2: Found failure (template: nt_gcd_lcm)
+2026-05-23 13:06:50,526 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:07:48,794 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:07:48,796 - RandomSearchStrategy - INFO - Iteration 3: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:07:52,172 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:07:52,172 - RandomSearchStrategy - INFO - Iteration 3: Found failure (template: nt_modular_arithmetic)
+2026-05-23 13:08:01,013 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:01,015 - RandomSearchStrategy - INFO - Iteration 4: Found failure (template: nt_sequence_sum)
+2026-05-23 13:08:01,860 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:01,864 - RandomSearchStrategy - INFO - Iteration 4: Found failure (template: gt_coin_game)
+2026-05-23 13:08:08,969 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:08,971 - RandomSearchStrategy - INFO - Iteration 4: Found failure (template: gt_stone_removal)
+2026-05-23 13:08:15,786 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:15,788 - RandomSearchStrategy - INFO - Iteration 5: Found failure (template: nt_arithmetic_progression)
+2026-05-23 13:08:16,544 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:16,546 - RandomSearchStrategy - INFO - Iteration 5: Found failure (template: nt_sequence_sum)
+2026-05-23 13:08:18,593 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:18,595 - RandomSearchStrategy - INFO - Iteration 5: Found failure (template: nt_sequence_sum)
+2026-05-23 13:08:20,436 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:23,818 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:23,820 - RandomSearchStrategy - INFO - Iteration 6: Found failure (template: nt_fibonacci_property)
+2026-05-23 13:08:24,838 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:24,840 - RandomSearchStrategy - INFO - Iteration 6: Found failure (template: gt_coin_game)
+2026-05-23 13:08:51,362 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:08:51,364 - RandomSearchStrategy - INFO - Iteration 7: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:09:02,113 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:03,035 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:08,152 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:08,153 - RandomSearchStrategy - INFO - Iteration 8: Found failure (template: nt_arithmetic_progression)
+2026-05-23 13:09:10,202 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:10,204 - RandomSearchStrategy - INFO - Iteration 8: Found failure (template: nt_prime_filtering)
+2026-05-23 13:09:13,367 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:13,370 - RandomSearchStrategy - INFO - Iteration 8: Found failure (template: nt_fibonacci_property)
+2026-05-23 13:09:17,167 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:17,169 - RandomSearchStrategy - INFO - Iteration 9: Found failure (template: nt_sequence_sum)
+2026-05-23 13:09:38,159 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:38,162 - RandomSearchStrategy - INFO - Iteration 9: Found failure (template: gt_coin_game)
+2026-05-23 13:09:39,370 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:39,373 - RandomSearchStrategy - INFO - Iteration 9: Found failure (template: gt_coin_game)
+2026-05-23 13:09:44,298 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:44,300 - RandomSearchStrategy - INFO - Iteration 10: Found failure (template: gt_prisoner_dilemma)
+2026-05-23 13:09:45,116 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:47,779 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:09:47,780 - RandomSearchStrategy - INFO - Iteration 10: Found failure (template: gt_resource_allocation)
+2026-05-23 13:10:03,041 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:03,044 - RandomSearchStrategy - INFO - Iteration 11: Found failure (template: nt_divisor_count)
+2026-05-23 13:10:08,679 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:08,687 - RandomSearchStrategy - INFO - Iteration 11: Found failure (template: nt_fibonacci_property)
+2026-05-23 13:10:09,492 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:19,313 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:19,315 - RandomSearchStrategy - INFO - Iteration 12: Found failure (template: gt_stone_removal)
+2026-05-23 13:10:22,291 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:22,293 - RandomSearchStrategy - INFO - Iteration 12: Found failure (template: gt_auction_strategy)
+2026-05-23 13:10:23,196 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:24,161 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:24,163 - RandomSearchStrategy - INFO - Iteration 13: Found failure (template: nt_modular_arithmetic)
+2026-05-23 13:10:24,956 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:25,684 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:28,485 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:28,489 - RandomSearchStrategy - INFO - Iteration 14: Found failure (template: nt_modular_arithmetic)
+2026-05-23 13:10:31,347 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:31,349 - RandomSearchStrategy - INFO - Iteration 14: Found failure (template: gt_fair_division)
+2026-05-23 13:10:42,156 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:42,158 - RandomSearchStrategy - INFO - Iteration 14: Found failure (template: nt_set_intersection)
+2026-05-23 13:10:49,012 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:50,348 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:52,808 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:10:52,810 - RandomSearchStrategy - INFO - Iteration 15: Found failure (template: nt_sequence_sum)
+2026-05-23 13:11:02,945 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:02,947 - RandomSearchStrategy - INFO - Iteration 16: Found failure (template: nt_set_intersection)
+2026-05-23 13:11:11,948 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:11,951 - RandomSearchStrategy - INFO - Iteration 16: Found failure (template: gt_prisoner_dilemma)
+2026-05-23 13:11:18,188 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:18,190 - RandomSearchStrategy - INFO - Iteration 16: Found failure (template: nt_arithmetic_progression)
+2026-05-23 13:11:19,083 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:42,366 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:42,367 - RandomSearchStrategy - INFO - Iteration 17: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:11:44,185 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:44,189 - RandomSearchStrategy - INFO - Iteration 17: Found failure (template: nt_prime_filtering)
+2026-05-23 13:11:56,909 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:11:56,911 - RandomSearchStrategy - INFO - Iteration 18: Found failure (template: nt_digit_manipulation)
+2026-05-23 13:12:11,346 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:12:11,348 - RandomSearchStrategy - INFO - Iteration 18: Found failure (template: nt_prime_filtering)
+2026-05-23 13:12:21,762 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:12:21,764 - RandomSearchStrategy - INFO - Iteration 18: Found failure (template: nt_divisor_count)
+2026-05-23 13:12:22,708 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:12:22,709 - RandomSearchStrategy - INFO - Iteration 19: Found failure (template: gt_nim_game)
+2026-05-23 13:12:23,468 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:12:23,471 - RandomSearchStrategy - INFO - Iteration 19: Found failure (template: nt_gcd_lcm)
+2026-05-23 13:12:24,658 - httpx - INFO - HTTP Request: POST https://routellm.abacus.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-23 13:12:24,660 - RandomSearchStrategy - INFO - Iteration 19: Found failure (template: gt_sequential_choice)
+2026-05-23 13:12:24,660 - RandomSearchStrategy - INFO - Random search complete. Failure rate: 78.33%
+2026-05-23 13:12:24,661 - Experiment-quick_test - INFO - Strategy random complete:
+2026-05-23 13:12:24,661 - Experiment-quick_test - INFO -   Failure rate: 78.33%
+2026-05-23 13:12:24,661 - Experiment-quick_test - INFO -   Failures found: 47
+2026-05-23 13:12:24,662 - Experiment-quick_test - INFO - Results saved to experiments/quick_test_20260523_130539/results.json
+2026-05-23 13:12:24,662 - Experiment-quick_test - INFO - Generating visualizations...
+2026-05-23 13:12:25,590 - Experiment-quick_test - INFO - Visualizations saved to experiments/quick_test_20260523_130539/visualizations
+2026-05-23 13:12:25,590 - Experiment-quick_test - INFO - 
+Experiment complete! Results saved to experiments/quick_test_20260523_130539
