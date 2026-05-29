@@ -55,7 +55,7 @@ Three optimization strategies to find failure cases:
 
 1. **Clone or download the repository**:
 ```bash
-cd /home/ubuntu/altg
+cd /path/to/repository
 ```
 
 2. **Install dependencies**:
