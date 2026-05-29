@@ -3,7 +3,7 @@
 ## Installation (1 minute)
 
 ```bash
-cd /home/ubuntu/altg
+cd /path /to/repository
 pip install -r requirements.txt
 ```
 
@@ -19,7 +19,7 @@ cp .env.example .env
 # Edit .env and add your keys
 ```
 
-## Run Your First Experiment (2 minutes)
+## Run Your First Experiment
 
 ```bash
 # Quick test with GPT-3.5 (10 iterations)
