@@ -1,13 +1,13 @@
 # Quick Start Guide
 
-## Installation (1 minute)
+## Installation 
 
 ```bash
 cd /path /to/repository
 pip install -r requirements.txt
 ```
 
-## Setup API Keys (1 minute)
+## Setup API Keys 
 
 ```bash
 # Option 1: Environment variables
