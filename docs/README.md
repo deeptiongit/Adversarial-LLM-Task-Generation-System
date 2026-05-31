@@ -1,5 +1,5 @@
 # Adversarial LLM Task Generation System (ALTG)
-Developed an automated adversarial evaluation framework that discovers LLM failure modes through iterative prompt evolution, evolutionary search, and ground-truth-constrained red teaming..
+Developed an automated adversarial evaluation framework that discovers LLM failure modes through iterative prompt evolution, evolutionary search, and ground-truth-constrained red teaming.
 
 ## Overview
 
