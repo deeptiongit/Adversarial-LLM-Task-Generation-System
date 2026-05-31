@@ -1,6 +1,5 @@
 # Adversarial LLM Task Generation System (ALTG)
-
-A comprehensive system for discovering structured failure modes in Large Language Models through evolutionary search and systematic mutation of mathematical and game-theoretic problems.
+Developed an automated adversarial evaluation framework that discovers LLM failure modes through iterative prompt evolution, evolutionary search, and ground-truth-constrained red teaming..
 
 ## Overview
 
@@ -416,6 +415,7 @@ Contributions welcome! Areas for improvement:
 
 For questions or issues:
 - Open an issue on GitHub
+- mail:maildeeptikushawaha@gmail.com
 
 ## Acknowledgments
 
