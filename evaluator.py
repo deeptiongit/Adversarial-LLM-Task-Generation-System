@@ -313,7 +313,7 @@ class Evaluator:
         
 #         result = evaluator.evaluate(response, truth)
         
-#         status = "✓" if result.is_correct == expected else "✗"
+#         status = "good" if result.is_correct == expected else "bad"
 #         print(f"{status} {description}:")
 #         print(f"  LLM: {llm_ans} -> Ground Truth: {truth}")
 #         print(f"  Normalized LLM: {result.normalized_llm_answer}")
