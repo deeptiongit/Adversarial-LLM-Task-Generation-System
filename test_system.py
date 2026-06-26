@@ -87,7 +87,7 @@ def test_mutation_engine():
         mutated = mutator.apply_random_mutations(problem, max_mutations=3)
         assert mutated is not None
         
-        print("✓ Mutation Engine working correctly\n")
+        print("Mutation Engine working correctly\n")
         return True
     except Exception as e:
         print(f"Mutation Engine failed: {e}")
@@ -146,10 +146,10 @@ def test_evaluator():
         result = evaluator.evaluate(response, [3, 2, 1])
         assert result.is_correct == True  # Order doesn't matter
         
-        print("✓ Evaluator working correctly\n")
+        print("Evaluator working correctly\n")
         return True
     except Exception as e:
-        print(f"✗ Evaluator failed: {e}")
+        print(f"Evaluator failed: {e}")
         traceback.print_exc()
         print()
         return False
@@ -232,7 +232,7 @@ def test_visualizer():
         assert os.path.exists("test_viz/test_failure_rates.png")
         assert os.path.exists("test_viz/test_failure_rates.html")
         
-        print(" Visualizer working correctly\n")
+        print("Visualizer working correctly\n")
         return True
     except Exception as e:
         print(f" Visualizer failed: {e}")
